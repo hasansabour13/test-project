@@ -1,51 +1,52 @@
-.container{
+.container {
     width: 90%;
     margin: 20px auto;
-   text-align: center;
-  
-  }
-  
-  table,th,td{
-    
-      border-collapse: collapse;
-      background-color: whitesmokes;
-       margin-top:170px;
-     
-  }
-  
-  table{
-      
-      width: 100%;
-      border: 1px solid black;
-      text-align: left;
-      cursor: pointer;
-      box-shadow: 0 4px 8px black;
-      overflow: hidden;
-      border-radius: 10px;
-  
-  }
-  
-  th{
-      background-color: blue;
-      color: white;
-  }
-  
-  th,td{
-      padding: 20px;
-  
-  }
-  
-  td{
-  background-color: white;
-  }
-  
-  tr:hover td {
-      background-color: bisque;
-    }
-    
-  
-  
-  tr{
-  box-shadow: 0PX 0px 1px black;
-  
-  }
+    text-align: center;
+
+}
+
+table,
+th,
+td {
+
+    border-collapse: collapse;
+    background-color: whitesmokes;
+    margin-top: 170px;
+    text-transform: capitalize;
+
+}
+
+table {
+
+    width: 100%;
+    border: 1px solid black;
+    text-align: left;
+    cursor: pointer;
+    box-shadow: 0 4px 8px black;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+
+th {
+    background-color: blue;
+    color: white;
+}
+
+th,
+td {
+    padding: 20px;
+
+}
+
+td {
+    background-color: white;
+}
+
+tr:hover td {
+    background-color: bisque;
+}
+
+tr {
+    box-shadow: 0PX 0px 1px black;
+}
